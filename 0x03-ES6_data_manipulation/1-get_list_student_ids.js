@@ -1,9 +1,11 @@
 function getListStudentIds(listStudents) {
-  let studentIds = [];
-  for (let i = 0; i < listStudents.length; i++) {
-    studentIds.push(listStudents[i].id);
+  if (!Array.isArray(listStudents)) {
+    return [];
   }
-  return studentIds;
+
+  return listStudents.map(function(student) {
+    return student.id;
+  });
 }
 
-module.exports = getListStudentIds;
+export default getListStudentIds;
