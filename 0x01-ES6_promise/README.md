@@ -1,5 +1,5 @@
 # 0x01. ES6 Promise
-```JavaScript```| ```ES6```
+```JavaScript``` | ```ES6```
 
 ## Requirements
 All files executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
